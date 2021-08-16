@@ -1,3 +1,11 @@
+#Government Web Template (GWT) for WordPress, Modded for DENR ADR Website.
+List of Change since forking:
+> moved auxilary menu to the bottom of website logo
+
+
+
+
+
 #Government Web Template (GWT) for WordPress
 
 Use this as a a guide for creating your banner slider images:
