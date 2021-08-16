@@ -136,18 +136,7 @@ Press esc, or click the close the button to close this dialog box.
 <div class="off-canvas-wrapper">
 	<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-		<!-- off-canvas title bar for 'small' screen -->
-		<div id="off-canvas-container" class="title-bar columns hide-for-large" data-responsive-toggle="main-nav" data-hide-for="large">
-			<div class="title-bar-right">
-				<span class="title-bar-title">Menu</span>
-				<button class="menu-icon" type="button" data-open="offCanvasRight"></button>
-			</div>
-			<div class="title-bar-left">
-				<span class="title-bar-title name"><a href="http://www.gov.ph">GOVPH</a></span>
-			</div>
-		</div>
-
-		<!-- off-canvas right menu -->
+				<!-- off-canvas right menu -->
 		<nav id="offCanvasRight" class="off-canvas position-right hide-for-large" data-off-canvas data-position="right">
 			<div class="list-item" ><?php get_search_form(); ?></div>
 			<ul class="vertical menu" data-drilldown data-parent-link="true">
@@ -159,6 +148,19 @@ Press esc, or click the close the button to close this dialog box.
 				<?php //endif; ?>
 			</ul>
 		</nav>
+		
+		<!-- off-canvas title bar for 'small' screen -->
+		<div id="off-canvas-container" class="title-bar columns hide-for-large" data-responsive-toggle="main-nav" data-hide-for="large">
+			<div class="title-bar-right">
+				<span class="title-bar-title">Menu</span>
+				<button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+			</div>
+			<div class="title-bar-left">
+				<span class="title-bar-title name"><a href="http://www.gov.ph">GOVPH</a></span>
+			</div>
+		</div>
+
+
 
 		<!-- "main-nav" top-bar menu for 'medium' and up -->
 		<div id="main-nav">
